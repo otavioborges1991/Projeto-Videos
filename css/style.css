@@ -9,6 +9,10 @@
 }
 
 html, body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     background-color: var(--cor-fundo);
@@ -31,8 +35,9 @@ header {
 }
 
 main {
-    margin: 20px 0px;
+    margin: 20px;
     text-align: center;
+    flex-grow: 1;
 }
 
 footer {
@@ -40,7 +45,6 @@ footer {
     color: var(--cor-secundaria);
     text-align: center;
     padding: 10px 0;
-    position: fixed;
     width: 100%;
     bottom: 0;
 }
